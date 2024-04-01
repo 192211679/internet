@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Online Shopping For Fashion Wear</h1>
+  <p>A website created by me.</p>
+</div>
+
+<div class="navbar">
+  <a href="Festivalop.html">Festivals</a></li>
+                          </ul>
+<div class="navbar">
+          </div>
+<a href="frankyo.html">Special offers</a></li>
+                          </ul>
+<div class="navbar">
+          </div>
+<a href="frankyo.html">Mens wear</a></li>
+                          </ul>
+<div class="navbar">
+          </div>
+<a href="frankyo.html">Womens Wear</a></li>
+                          </ul>
+<div class="navbar">
+          </div>
+<a href="frankyo.html">Kids Wear</a></li>
+                          </ul>
+<div class="navbar">
+          </div>
+<a href="frankyo.html">About Us</a></li>
+                          </ul>
+          </div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>..</p>Welcome to my corner of the internet! I'm Tharun, an 18-year-old passionate about technology, design, and fashion dresses. From tinkering with code to crafting compelling narratives, I thrive on bringing ideas to life in the digital realm.
+    
+  <div class="main">
+    <h2>Fashion Wears</h2>
+    <h5>Fashion wears are more than just clothing; they are an expression of personality, mood, and individuality. From timeless classics to trendsetting pieces, fashion wears encompass a vast array of styles, designs, and textures that cater to every taste and preference.
+
+At Fashion Wear Store, we understand the importance of finding the perfect ensemble that not only looks good but also makes you feel confident and empowered. Whether you're dressing for a special occasion, updating your everyday wardrobe, or simply indulging in a bit of self-expression, we have something for everyone., Dec 7, 2017</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Explore our curated collection of fashion wears, carefully selected to inspire and elevate your style. From elegant dresses and sophisticated suits to casual denim and statement accessories, each piece is thoughtfully crafted to enhance your look and make a lasting impression...</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    
+</div>
+
+
+
+</body>
+</html>
